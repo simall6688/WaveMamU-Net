@@ -1,0 +1,27 @@
+# IDE 
+.idea/ 
+.vscode/ 
+ECHO is on.
+# Python 
+__pycache__/ 
+*.pyc 
+*.py[cod] 
+ECHO is on.
+# Dataset and results 
+results/ 
+gradcam_results/ 
+*.pth 
+ECHO is on.
+# Documentation/images 
+*.pdf 
+*.png 
+*.svg 
+ECHO is on.
+# Training outputs 
+model_analysis_results_*.json 
+checkpoints/ 
+ECHO is on.
+# Temporary 
+*.tmp 
+*.temp 
+.pytest_cache/ 
